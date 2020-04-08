@@ -4,7 +4,7 @@ const moment = require('moment');
 module.exports = {
   base:'/vuepress_myblog/',
   title: '小昭成长记录',
-  description: '小昭的个人博客',
+  description: '积小流以成江海',
   head: headConf,
   themeConfig: {
     logo: '/assets/img/logo.jpg',
@@ -25,8 +25,8 @@ module.exports = {
       {
         serviceWorker: true,
         updatePopup: {
-          message: "New content is available.",
-          buttonText: "Refresh"
+          message: "发现新内容可用",
+          buttonText: "刷新"
         }
       }
     ]
