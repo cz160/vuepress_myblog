@@ -1,5 +1,4 @@
 ---
-navbar: false
 sidebar: auto
 ---
 ## 介绍

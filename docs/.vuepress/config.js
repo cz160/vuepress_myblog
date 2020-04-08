@@ -2,6 +2,7 @@ const navConf = require('./config/navConf');
 const headConf = require('./config/headConf');
 const moment = require('moment');
 module.exports = {
+  base:'/vuepress_myblog/',
   title: '小昭成长记录',
   description: '小昭的个人博客',
   head: headConf,
