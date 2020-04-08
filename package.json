@@ -1,0 +1,29 @@
+{
+  "name": "vuepress_myblog",
+  "version": "1.0.0",
+  "description": "利用vuepress搭建的个人博客",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cz160/vuepress_myblog.git"
+  },
+  "keywords": [
+    "vuepress"
+  ],
+  "author": "cz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cz160/vuepress_myblog/issues"
+  },
+  "homepage": "https://github.com/cz160/vuepress_myblog#readme",
+  "devDependencies": {
+    "vuepress": "^1.4.0"
+  }
+}
