@@ -1,3 +1,6 @@
+/**
+ * 头部配置
+ */
 module.exports = [
   ['link', { rel: 'icon', href: '/assets/img/logo.jpg' }],
   ['meta',{ name: 'keywords', content:'前端,vue,react,git,react-hooks'}],
