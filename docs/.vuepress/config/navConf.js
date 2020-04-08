@@ -4,11 +4,13 @@
 module.exports = [
   { text: '主页', link: '/' },
   { 
-    text: '博文',
+    text: '前端',
     items:[
-      { text: 'vue系列', link: '/vue/one' },
+      { text: 'js', link: '/js/one' },
+      { text: 'vue', link: '/vue/one' },
+      { text: 'react', link: '/react/one' },
     ] 
   },
-  { text: '关于', link: '/about/' },
+  { text: '关于我', link: '/about/' },
   { text: 'Github', link: 'https://github.com/cz160' },
 ]

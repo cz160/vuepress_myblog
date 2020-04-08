@@ -1,6 +1,7 @@
 ---
 sidebar: auto
 ---
+# mackdown使用vue组件
 ## 介绍
 热爱生产，热爱技术
 ## 一级标题
