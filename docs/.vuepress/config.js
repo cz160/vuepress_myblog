@@ -1,37 +1,20 @@
+const navConf = require('./config/navConf');
+const headConf = require('./config/headConf');
 module.exports = {
-  title: '小昭聊前端',
-  description: 'Just playing around',
-  head: [
-    ['link', { rel: 'icon', href: '/assets/img/logo.jpg' }],
-  ],
+  title: '小昭成长记录',
+  description: '小昭的个人博客',
+  head: headConf,
   themeConfig: {
     logo: '/assets/img/logo.jpg',
   },
   themeConfig: {
-    nav: [
-      { text: '主页', link: '/' },
-      { 
-        text: '博文',
-        items:[
-          { text: 'vue系列', link: '/vue/' },
-          { text: 'react系列', link: '/react/' },
-          { text: 'js系列', link: '/js/' }
-        ] 
-      },
-      { text: '关于', link: '/about/' },
-      { text: 'Github', link: 'https://github.com/cz160' },
-    ],
-    sidebar: {
-      '/vue/':[{
-        title:'vue',
-        collapsable: false,
-        children: [
-          { title: 'items01', path:'/vue/one/'},
-          { title: 'items02', path:'/vue/two/'},
-        ]
-      }],
-    },
-    sidebarDepth: 2,
     lastUpdated: '更新时间', 
+    nav: navConf,
+    sidebar: {
+      '/vue/':[
+        'one',
+        'two'
+      ],
+    },
   }
 }
