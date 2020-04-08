@@ -18,6 +18,16 @@ module.exports = {
           moment.locale('zh-cn')
           return moment(timestamp).fromNow()
         }
+      },
+    ],
+    [
+      '@vuepress/pwa',
+      {
+        serviceWorker: true,
+        updatePopup: {
+          message: "New content is available.",
+          buttonText: "Refresh"
+        }
       }
     ]
   ],

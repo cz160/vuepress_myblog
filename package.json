@@ -27,5 +27,8 @@
   "devDependencies": {
     "moment": "^2.24.0",
     "vuepress": "^1.4.0"
+  },
+  "dependencies": {
+    "@vuepress/plugin-pwa": "^1.4.0"
   }
 }
