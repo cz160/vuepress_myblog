@@ -20,5 +20,6 @@ module.exports = {
   '@vuepress/back-to-top': true,
   '@vuepress/google-analytics': {
     'ga': secret.ga, 
-  }
+  },
+  "vuepress-plugin-auto-sidebar": {}
 }

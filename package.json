@@ -28,7 +28,8 @@
     "@vuepress/plugin-back-to-top": "^1.4.0",
     "@vuepress/plugin-google-analytics": "^1.4.0",
     "moment": "^2.24.0",
-    "vuepress": "^1.4.0"
+    "vuepress": "^1.4.0",
+    "vuepress-plugin-auto-sidebar": "^1.4.1"
   },
   "dependencies": {
     "@vuepress/plugin-pwa": "^1.4.0"
