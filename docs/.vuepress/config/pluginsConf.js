@@ -21,5 +21,7 @@ module.exports = {
   '@vuepress/google-analytics': {
     'ga': secret.ga, 
   },
-  "vuepress-plugin-auto-sidebar": {}
+  "vuepress-plugin-auto-sidebar": {
+    nav:true,
+  }
 }

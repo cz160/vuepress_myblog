@@ -1,4 +1,4 @@
-const navConf = require('./config/navConf');
+const navConf = require('./nav');
 const headConf = require('./config/headConf');
 const pluginsConf = require('./config/pluginsConf');
 module.exports = {
