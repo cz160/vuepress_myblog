@@ -4,7 +4,7 @@ heroImage: null
 heroText: 小昭聊前端
 tagline: null
 actionText: 去阅读 →
-actionLink: /vue/
+actionLink: /vue/vue基础篇/
 features:
 - title: 学习心得
   details: 记录在前端技术学习过程的心得。
