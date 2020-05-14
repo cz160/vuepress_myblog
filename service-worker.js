@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "about/index.html",
-    "revision": "9ded13867c5376e64cd69df22378e9df"
+    "revision": "f84f4162eefc8ed1ce8547c8365d8955"
   },
   {
     "url": "assets/css/0.styles.5fbc3680.css",
@@ -98,16 +98,16 @@ self.__precacheManifest = [
     "revision": "ab9ea46ad8869f713d884a3ddde009e7"
   },
   {
-    "url": "assets/js/8.61522b11.js",
-    "revision": "3fdfbc1e5076f66e29c16c5935db7138"
+    "url": "assets/js/8.712578ee.js",
+    "revision": "6bfbae38db3707f3de3c1ad062d57eef"
   },
   {
     "url": "assets/js/9.58620ecc.js",
     "revision": "abaccdaf2ea8a15a5d5e9c5b184d8bb1"
   },
   {
-    "url": "assets/js/app.128be56d.js",
-    "revision": "2e1313d5cda8153b4a37ee1a95d0695b"
+    "url": "assets/js/app.b967fe1b.js",
+    "revision": "c1b12f4b70ffdf62117ae05d51a85095"
   },
   {
     "url": "icons/android-chrome-192x192.png",
@@ -163,35 +163,35 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "feb786849aa764c2f9e83939b03301e7"
+    "revision": "aa77265477a77429212f765776f8aba2"
   },
   {
     "url": "react/index.html",
-    "revision": "00e80427cae72bc31812835c2a0c0626"
+    "revision": "ea21e717f8e73c3d716d12bf985cbd00"
   },
   {
     "url": "react/one.html",
-    "revision": "7c5a8fabba512db3cd2348d4e7427981"
+    "revision": "f192df7436ad81fb70c111da57f4d503"
   },
   {
     "url": "react/there.html",
-    "revision": "a6c7b2676ec5bc0db03a18900063934c"
+    "revision": "e8b16d0d00f51845aad5400c79720ec0"
   },
   {
     "url": "react/two.html",
-    "revision": "4738d4693f633aecb91fdb021f93d6b7"
+    "revision": "9efb90a851232d4e7c4fcdab2600c6a1"
   },
   {
     "url": "vue/vue基础篇/index.html",
-    "revision": "da54c04e20198527b96972ee6903f8f7"
+    "revision": "6a07f5cbf2899d7adc9d9c48ee9825a9"
   },
   {
     "url": "vue/vue基础篇/one.html",
-    "revision": "9f825b5ad95811fe2e76b9ffffb60c70"
+    "revision": "17ef34abe13ee54320f04eb0d467a20a"
   },
   {
     "url": "vue/vue进阶篇/index.html",
-    "revision": "8e33f848b10f2fe86b5e0b2afef85e74"
+    "revision": "c22c7bb53426fb0048f517dbce44f7f9"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
